@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+    <title>who_am_i - html</title>
+    <meta charset="utf-8">
+    <style>
+      body{
+        margin: 0px;
+          background-color:#D8E1EE;
+            font-family:  "경기천년제목 Light", monospace;
+      }
+      a {color: black;
+        text-decoration: none;
+      }
+    h1 {
+      font-size:80px;
+      text-align: left;
+      border-bottom: none;
+      margin: 0px;
+      padding: 20px;
+    }
+    ol {
+      border-right: 5px solid #7A93B3;
+      font-size: 20px;
+      width:100px;
+      margin: 0px;
+      padding: 40px;}
+    #grid{
+      display: grid;
+      grid-template-columns: 150px 1fr
+    }
+    #grid ol {
+        padding-right: 20px;
+    }
+    #grid #article{
+      padding-left: 25px;
+    }
+    @media (max-width:800px){
+      #grid{
+      display: block;
+    }
+    ol{
+            border-right:none;}
+  }
+
+    </style>
+</head>
+
+<body>
+  <h1><strong><a href="index.html">ssuk_homepage</a></strong></h1>
+<img src="hi.jpg" width= "100%">
+  <div id="grid">
+
+  <ol>
+      <li><a href="11.html">목표</a></li><br>
+      <li><a href="10.html">프로필</a></li><br>
+      <li><a href="12.html">취미</a></li><br>
+      <li><a href="13.html">장점과 단점</a></li><br>
+  </ol>
+  <div id="article">
+
+    <h2>목표</h2>
+      <p>
+        <li>2020</li>
+          <ul>컴퓨터활용능력 1급 취득</ul>
+          <ul>두 학기동안 수강한 과목 관련 도서 1권씩 읽기</ul>
+          <ul>에세이, UCC 공모전 참가</ul><br>
+
+        <li>2021</li>
+          <ul>GTQ 그래픽기술 자격 시험 취득</ul>
+          <ul>GTQi 그래픽기술 자격 일러스트 취득 </ul>
+          <ul>전국단위 공모전 참가</ul><br>
+
+        <li>2022</li>
+          <ul>토익 850점 이상 득점</ul>
+          <ul>취업특강 수강 후 각 기업 대비 서류 준비</ul>
+          <br>
+     </p>
+  </div>
+</div>
+</body>
+</html>
